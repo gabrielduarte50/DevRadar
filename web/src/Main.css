@@ -1,0 +1,15 @@
+main {
+  flex: 1;
+} /*main pega todo o tamanho*/
+main ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /*distanciar tamanho das linhas*/
+  list-style: none;
+}
+@media (max-width: 650px) {
+  main ul {
+    grid-template-columns: 1fr;
+  } /* quando diminui abaixo de 650px, tornase uma coluna apenas.*/
+}
+
