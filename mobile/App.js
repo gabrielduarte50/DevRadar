@@ -1,5 +1,5 @@
 import React from "react";
-import { StatusBar } from "react-native";
+import { StatusBar } from "react-native"; //componente basico do sistema
 import Routes from "./src/routes";
 
 export default function App() {
