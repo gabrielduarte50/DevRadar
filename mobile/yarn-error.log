@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add expo-location@~8.0.0
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-webview
 
 PATH: 
-  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\MinGW\bin;;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Gabri\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\Gabri\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Gabri\AppData\Local\Programs\Python\Python37-32\;C:\Users\Gabri\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;;C:\Users\Gabri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gabri\AppData\Roaming\npm;C:\Users\Gabri\AppData\Local\Yarn\bin
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\MinGW\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Gabri\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\Gabri\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Gabri\AppData\Local\Programs\Python\Python37-32\;C:\Users\Gabri\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;;C:\Users\Gabri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gabri\AppData\Roaming\npm;C:\Users\Gabri\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.21.1
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\Gabri\Desktop\Estudo\DevRadar\mobile\node_modules\@babel\template\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Gabri\Desktop\Estudo\DevRadar\mobile\node_modules\@babel\plugin-transform-runtime\node_modules\.bin'
 
 npm manifest: 
   {
@@ -28,6 +28,7 @@ npm manifest:
     },
     "dependencies": {
       "@react-native-community/masked-view": "^0.1.6",
+      "axios": "^0.19.2",
       "expo": "~36.0.0",
       "expo-cli": "^3.13.1",
       "expo-location": "~8.0.0",
@@ -2892,6 +2893,13 @@ Lockfile:
     dependencies:
       follow-redirects "^1.2.5"
       is-buffer "^1.1.5"
+  
+  axios@^0.19.2:
+    version "0.19.2"
+    resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+    integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+    dependencies:
+      follow-redirects "1.5.10"
   
   babel-code-frame@^6.22.0:
     version "6.26.0"
